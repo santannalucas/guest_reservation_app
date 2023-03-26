@@ -6,7 +6,7 @@ This is a simple guest reservation API built with Ruby on Rails to handle differ
 To get started, clone this repository:
 
 ```bash
-git clone https://github.com/your-username/guest_reservation_system.git
+git clone git@github.com:santannalucas/guest_reservation_app.git
 ```
 
 Then, install the required dependencies using Bundler:
