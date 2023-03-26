@@ -12,7 +12,7 @@ git clone git@github.com:santannalucas/guest_reservation_app.git
 Then, install the required dependencies using Bundler:
 
 ```bash
-cd guest_reservation_system
+cd guest_reservation_app
 bundle install
 ```
 
@@ -67,11 +67,11 @@ Start the development server:
 rails server
 ```
 
-## Creating a Reservation
+### Creating a Reservation
 To create a reservation, make a POST request to the http://localhost:3000/reservations endpoint with a JSON payload:
 You can use 2 different payload types:
 
-### Payload 1 example:
+#### Payload 1 example:
 ```json
 {
 "reservation_code": "YYY12345678",
@@ -96,7 +96,7 @@ You can use 2 different payload types:
 }
 ```
 
-### Payload 2 example:
+#### Payload 2 example:
 ```json
 {
 "reservation": {
@@ -127,6 +127,7 @@ You can use 2 different payload types:
 }
 ```
 
+### Requests
 A successful request should return STATUS :created and reservation data with id:
 
 #### Payload 1  Example
